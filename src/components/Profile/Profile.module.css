@@ -1,0 +1,81 @@
+.ProfileCard{
+    display: block;
+    margin: 0;
+    border: 2px solid black;
+    border-radius: 4px;
+    padding-top: 16px;
+    position: relative;
+   
+}
+.Description{
+    display: block;
+}
+
+.UserName{
+    font-size: medium;
+    margin-top: 20px;
+    text-align: center; 
+}
+.UserTag{
+    font-size: medium;
+    margin-top: 20px;
+    text-align: center;
+    color: dimgray;
+}
+
+.UserLocation{
+    font-size: medium;
+    margin-top: 20px;
+    text-align: center;
+    color: dimgray;
+}
+.CardFooter{
+    margin-top: 0;
+    margin-bottom: 0;
+
+ 
+}
+.Stats{
+    list-style: none;
+    display: inline-flex;
+    
+    padding-inline-start: 0; 
+    margin: 0;
+    border: 1px solid black;
+    background-color: aquamarine;
+       
+}
+.CardFooterElement{
+    margin-left: 0;
+    text-align: center;
+    border: 1px solid #bbb;
+    padding: 0 2px 0 4px;
+    
+
+}
+.UserFollowers,.UserViews,.UserLikes {
+    list-style: none;
+    font-size: medium;
+    line-height: 16px;
+    font-weight: 400;
+    letter-spacing: 0.25px;
+    text-align: center;
+    color: dimgray;
+  
+   
+}
+.Quantity{
+    font-size: medium;
+    text-align: center;
+    color: dimgray;
+    margin-left: 5px;
+}
+.UserAvatar{
+    display: block;
+    margin: 0 auto;
+    border: 1px solid black;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+
+}
