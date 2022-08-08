@@ -26,15 +26,15 @@ font-size: medium;
     background-color: aquamarine;
 }
 .item{
+    display: flex;
+    flex-direction: column;
     margin-left: 0;
     text-align: center;
     border: 1px solid #bbb;
-    padding: 0 2px 0 4px;
+    padding: 10px;
 }
 .label,.percentage{
     font-size: medium;
     text-align: center;
     color: dimgray;
-    margin-left: 5px;
-    
 }

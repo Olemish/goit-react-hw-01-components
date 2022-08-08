@@ -3,7 +3,7 @@ import css from './FriendList.module.css'
 export const FriendList = ({friends}) => {
       
     return (
-        <div clasName={css.wrapper}>
+        <div className={css.wrapper}>
         {friends.map(({ id, isOnline, name, avatar }) =>
       (
      <div className={css.FriendList} key={id}>

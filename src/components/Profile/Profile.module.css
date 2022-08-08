@@ -1,4 +1,9 @@
+*{
+    padding: 0;
+    margin: 0;
+}
 .ProfileCard{
+    margin: 20px;
     display: block;
     margin: 0;
     border: 2px solid black;
@@ -30,30 +35,27 @@
     color: dimgray;
 }
 .CardFooter{
-    margin-top: 0;
-    margin-bottom: 0;
 
- 
 }
 .Stats{
     list-style: none;
-    display: inline-flex;
-    
-    padding-inline-start: 0; 
-    margin: 0;
-    border: 1px solid black;
-    background-color: aquamarine;
-       
+    display: flex;
+    font-size: 8px;
+    border: 1px solid black;       
 }
 .CardFooterElement{
-    margin-left: 0;
+    
     text-align: center;
     border: 1px solid #bbb;
-    padding: 0 2px 0 4px;
-    
-
+    /* padding: 0 2px 0 4px; */
 }
 .UserFollowers,.UserViews,.UserLikes {
+    /* display: block; */
+    display: flex;
+        flex-direction: column;
+        text-align: center;
+        width: 70px;
+        padding: 20px 0 20px;
     list-style: none;
     font-size: medium;
     line-height: 16px;

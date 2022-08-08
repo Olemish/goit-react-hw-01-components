@@ -12,10 +12,10 @@ export const UserCard = ({profile: {username, tag, location, avatar, stats: {fol
             <p className={css.UserLocation}>{location}</p>
         </div>
        
-        <div className={css.CardFooter}>
+        
             <ul className={css.Stats}>
                 <li className={css.CardFooterElement}>
-                        <span className={css.UserFollowers}>followers: </span>
+                    <span className={css.UserFollowers}>followers: </span>
                     <span className={css.Quantity}>{followers}</span>
                 </li>
                 <li className={css.CardFooterElement}>
@@ -27,7 +27,7 @@ export const UserCard = ({profile: {username, tag, location, avatar, stats: {fol
                     <span className={css.Quantity}>{likes}</span>
                 </li>
             </ul>
-        </div>
+        
     </div>  
 );
 } 
@@ -36,8 +36,8 @@ UserCard.propTypes = {
     name: PropTypes.string,
     tag: PropTypes.string,
     location: PropTypes.string,
-    // stats: PropTypes.string,
-    // views: PropTypes.string,
-    // likes: PropTypes.string,
+    stats: PropTypes.number,
+    views: PropTypes.number,
+    likes: PropTypes.number,
 };
     
