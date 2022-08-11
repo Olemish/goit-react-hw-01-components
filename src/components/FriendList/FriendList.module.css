@@ -1,42 +1,41 @@
 .wrapper {
-    display: block;
-    
+  display: block;
 }
-.FriendList{
-    position: relative;
-    display:grid;
-    gap: 24px;
-    padding-left: 16px;
-    padding-right: 16px; 
-    margin: 0;
-    padding-top: 16px;  
-}
-
-.item{
-    list-style: none;
-    display: flex;
-    justify-content: space-around;
-    width: 200px;
-    align-items: center;
-    border: 1px solid black;
-    border-radius: 4px;
-    padding: 5px;
+.FriendList {
+  position: relative;
+  display: grid;
+  gap: 24px;
+  padding-left: 16px;
+  padding-right: 16px;
+  margin: 0;
+  padding-top: 16px;
 }
 
-.status{
-    height: 20px;
-    width: 20px;
-    border: 1px solid black;
-    border-radius: 50%;
-   background-color: blue;
+.item {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  width: 200px;
+  align-items: center;
+  border: 1px solid black;
+  border-radius: 4px;
+  padding: 5px;
 }
-.false{
-    background-color: red;
+
+.status {
+  height: 20px;
+  width: 20px;
+  border: 1px solid black;
+  border-radius: 50%;
+  background-color: blue;
 }
-.true{
-    background-color: green;
+.false {
+  background-color: red;
 }
-.name{
-    font-size: x-large;
-    margin: 0;
+.true {
+  background-color: green;
+}
+.name {
+  font-size: x-large;
+  margin: 0;
 }
